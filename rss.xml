@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <title>Useless Ramblings</title>
+  <link>link</link>
+  <description>The RSS feed for my blog</description>
+  <!--NEXT_ITEM--> 
+ 
+
+</channel>
+
+</rss>
