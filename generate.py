@@ -30,6 +30,9 @@ def get_body(Title,Date,Hour):
                  body_2.append(i+"\n")
     file.close()
     return body_1,body_2
+
+
+
 def main():
  article_name=input("Name the file you want to pass to article:")
  if not exists(article_name):
@@ -93,3 +96,5 @@ def main():
   os.rename("test.html",destination+"/"+Title+".html")
   #returns the paragraphs of written text to be put into the xml file
   return xml
+
+main()
