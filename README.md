@@ -1,8 +1,12 @@
-# interweb-blog
+# useless-ramblings
 
 **This repository contains both my personal blog and the script used to build it, togheter with the components of the site.**
 
 **The script takes a simple file written in my own markup language and transcribes it into html.Then it organises it within a system of entries ordered by date and can be easily accesed in order from the "INDEX" page of the site.It also puts everything in an RSS feed, so the contents of the blog can be easily accesed without a browser.**
+
+# Why?
+
+I like posting on Linkedin but the moderation and censor policy tailored to the corporate culture on the platform make it risky to write everything directly in the post so I simply write the bulk of my message here and link the post there.
 
 # DUMBDOWN
 
