@@ -8,12 +8,12 @@
 	--altbg: #333 ;
 	--emph: #333 ;
 	--bordercolor: #555 ;
-	--limish: #1B5E20 ;
+	--limish: #61d9f7 ;
 }
 
 body {
 	font-style: monospace ;
-	background: #F5F5F5 ;
+	background: #c9c8c8 ;
 	margin-bottom: 100px ;
 }
 
@@ -82,7 +82,7 @@ details { padding-left: 20px ; text-decoration: underline; }
 
 
 pre {
-	background: #FAEBD7 ;
+	background: #4d4d4d ;
 	border: 1px solid var(--limish) ;
 	border-radius: 20px ;
 	padding: 1em ;
@@ -91,7 +91,7 @@ pre {
 }
 
 code {
-	background: #FAEBD7 ;
+	background: #494949 ;
 	color: var(--limish) ;
 	border-radius: 5px ;
 	overflow-wrap: break-word ;
@@ -114,11 +114,11 @@ h1,h2,h3,h4 {
 	font-weight: normal ;
 }
 
-h1 { color: lightblue ; }
+h1 { color: rgb(242, 7, 7) ; }
 
 h2 { color: cadetblue ; }
 
-h3 { color: darkolivegreen ; }
+h3 { color: rgb(95, 211, 170) ; }
 
 h4 { color:darkorchid ; }
 
@@ -217,7 +217,6 @@ aside {
 	text-align: center;
 	h3{
 		text-align: center;
-		color: red;
 	}
 }
 footer {
