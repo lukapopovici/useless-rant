@@ -13,7 +13,20 @@
 
 body {
 	font-style: monospace ;
-	background: #c9c8c8 ;
+	background: #e9bb7a ;
+	background-image: url("./public/city.png");
+	background-repeat: no-repeat;
+
+	/* Set the background to repeat only along the x-axis (horizontally) */
+	background-repeat: repeat-x;
+  
+	/* Position the background at the bottom center of the page */
+	background-position: center bottom;
+  
+	/* Fix the background in place so it doesn't scroll with the content */
+	background-attachment: fixed;
+  
+	/* Set background size to cover the entire viewport */
 	margin-bottom: 100px ;
 }
 
