@@ -6,7 +6,7 @@
 
 # Why?
 
-I like posting on Linkedin but the moderation and censor policy tailored to the corporate culture on the platform make it risky to write everything directly in the post so I simply write the bulk of my message here and link the post there.
+I like posting on Linkedin but I want to write comprehensive articles with images and other links and I decided that it's better to write them on a separate platform and post the link only.
 
 # DUMBDOWN
 

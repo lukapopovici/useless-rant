@@ -12,22 +12,14 @@
 }
 
 body {
-	font-style: monospace ;
+	font-family: 'Nova Square', sans-serif;
 	background: #e9bb7a ;
 	background-image: url("./public/city.png");
 	background-repeat: no-repeat;
-
-	/* Set the background to repeat only along the x-axis (horizontally) */
 	background-repeat: repeat-x;
-  
-	/* Position the background at the bottom center of the page */
-	background-position: center bottom;
-  
-	/* Fix the background in place so it doesn't scroll with the content */
-	background-attachment: fixed;
-  
-	/* Set background size to cover the entire viewport */
-	margin-bottom: 100px ;
+  	background-position: center bottom;
+  	background-attachment: fixed;
+  	margin-bottom: 100px ;
 }
 
 
@@ -51,7 +43,7 @@ sup {
 }
 
 nav {
-	font-variant: monospace;
+	font-family: "Audiowide", sans-serif;
 }
 
 nav {
@@ -64,10 +56,6 @@ nav {
 }
 
 
-
-nav {
-	max-width: var(--genwidth) ;
-}
 
 nav li,footer li {
 	display: inline-block ;
@@ -121,12 +109,19 @@ li img, p img {
 	max-width: 1em ;
 }
 
+.center {
+	text-align: center !important;
+
+}
+
 h1,h2,h3,h4 {
-	font-family: monospace;
+	font-family: "Audiowide", sans-serif;
+
 	text-align: center ;
 	font-weight: normal ;
 }
 
+/*Letter collors for different tags*/
 h1 { color: rgb(242, 7, 7) ; }
 
 h2 { color: cadetblue ; }
@@ -151,6 +146,30 @@ font-size: small;
 margin-left: 25px;
  margin-right: 25px;
 }
+
+/*The picture on the mainpage*/
+/*Remember to add media query*/
+
+.mainpage_p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.mainpage_p p {
+    flex: 1;
+    padding: 7px;
+	margin-left: 0px !important;
+ 	margin-right: 0px !important;
+}
+
+.mainpage_p img {
+    max-width: 37%;
+    height: auto;
+}
+
 
 @media (min-width: 1200px) {
 	nav {
@@ -227,11 +246,12 @@ aside {
 }
 
 .mainpage-text{
-	text-align: center;
+
 	h3{
 		text-align: center;
 	}
 }
+
 footer {
     position: fixed; 
     bottom: 0;
